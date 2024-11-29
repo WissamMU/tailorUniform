@@ -1,0 +1,54 @@
+<section class="container-fluid" id="product">
+    <div class="w-100">
+        <h1 class="title my-5">منتجات</h1>
+    </div>
+    <div class="row">
+        {{ range .Site.Data.products }}
+
+        <div class="col-xl-4 col-md-6 mb-3">
+            <div class="container-card">
+                <div class="product-img">
+                    <div class="images">
+                        <img src="{{.image}}" alt="product img not found" />
+                    </div>
+                    <p class="pick">المقاسات المتوفرة</p>
+                    <div class="sizes">
+                        <div class="size">XS</div>
+                        <div class="size">S</div>
+                        <div class="size">M</div>
+                        <div class="size">L</div>
+                        <div class="size">XL</div>
+                        <div class="size">2XL</div>
+                        <div class="size">3XL</div>
+                        <div class="size">4XL</div>
+                        <div class="size">5XL</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <p>{{ .category }}</p>
+                    <div>
+                        <h1>{{ .name }}</h1>
+                        <h4>تفاصيل</h4>
+                        <p class="desc">
+                            {{ .description}}
+                        </p>
+                    </div>
+                    <div>
+                        <a href="./product-page.html">
+                            <button herf="./product-page.html" class="add">المزيد ...</button>
+                        </a>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=%2B966508306463&text&type=phone_number&app_absent=0"
+                            class="buttons">
+                        <button class="like">
+                                <i class="fab fa-whatsapp fa-lg"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ end }}
+    </div>
+</section>
