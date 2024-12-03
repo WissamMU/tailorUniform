@@ -342,7 +342,6 @@ section#work {
             }
 
             .cube-left {
-                border-radius: 50px;
                 width: 25%;
                 top: 50%;
                 left: 12.5%;
@@ -351,7 +350,6 @@ section#work {
             }
 
             .cube-right {
-                border-radius: 50px;
                 width: 25%;
                 top: 50%;
                 right: -12.5%;
@@ -413,21 +411,45 @@ section#work {
         padding: 0 50px;
     }
 
-    #work{
+    #work {
         padding: 0;
+
         .product-back {
             width: 100% !important;
+
             .card-title,
-            .card-contact{
+            .card-contact {
                 font-size: 1.25rem;
             }
-            img{
+
+            img {
                 border-radius: 0 !important;
             }
+
             &::after {
                 border-radius: 0 !important;
             }
-    
+
+        }
+
+        .cube-middle {
+            border-radius: 10px !important;
+        }
+
+        .cube-left {
+            width: 25%;
+            top: 50%;
+            left: 12.5%;
+            border-radius: 0 10px 10px 0 !important;
+            transform: translate(-50%, -50%);
+        }
+
+        .cube-right {
+            width: 25%;
+            top: 50%;
+            right: -12.5%;
+            border-radius: 10px 0 0 10px !important;
+            transform: translate(-50%, -50%);
         }
     }
 }

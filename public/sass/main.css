@@ -234,14 +234,12 @@ section#work .product-card {
       transform: translate(-50%, -50%);
       width: 30%; }
     section#work .product-card .product-back .cube-left {
-      border-radius: 50px;
       width: 25%;
       top: 50%;
       left: 12.5%;
       border-radius: 0 50px 50px 0;
       transform: translate(-50%, -50%); }
     section#work .product-card .product-back .cube-right {
-      border-radius: 50px;
       width: 25%;
       top: 50%;
       right: -12.5%;
@@ -286,7 +284,21 @@ section#work .product-card {
       #work .product-back img {
         border-radius: 0 !important; }
       #work .product-back::after {
-        border-radius: 0 !important; } }
+        border-radius: 0 !important; }
+    #work .cube-middle {
+      border-radius: 10px !important; }
+    #work .cube-left {
+      width: 25%;
+      top: 50%;
+      left: 12.5%;
+      border-radius: 0 10px 10px 0 !important;
+      transform: translate(-50%, -50%); }
+    #work .cube-right {
+      width: 25%;
+      top: 50%;
+      right: -12.5%;
+      border-radius: 10px 0 0 10px !important;
+      transform: translate(-50%, -50%); } }
 
 @media (max-width: 576px) {
   #carouselExampleAutoplaying span.on-img {

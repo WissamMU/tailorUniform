@@ -1,0 +1,23 @@
+{
+    "work1":{
+        "catagory":"تيشرتات",
+        "middleImg":"/images/cards/card-1.png",
+        "leftImg":"/images/cards/card-2.png",
+        "rightImg":"/images/cards/card-3.png",
+        "backImg":"/images/carousel/carousel-3.png"
+    },
+    "work3":{
+        "catagory":"بدلة عمل",
+        "middleImg":"/images/cards/card-6.png",
+        "leftImg":"/images/cards/card-5.png",
+        "rightImg":"/images/cards/card-4.png",
+        "backImg":"/images/carousel/carousel-3.png"
+    },
+    "work2":{
+        "catagory":"ملابس طبية",
+        "middleImg":"/images/cards/card-7.png",
+        "leftImg":"/images/cards/card-9.png",
+        "rightImg":"/images/cards/card-8.png",
+        "backImg":"/images/carousel/carousel-4.png"
+    }
+}
