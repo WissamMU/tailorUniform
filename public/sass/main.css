@@ -261,6 +261,37 @@ section#work .product-card {
       background-color: rgba(59, 59, 59, 0.6);
       border-radius: 50px; }
 
+section#footer {
+  background-color: #312F55;
+  color: #7771A8; }
+  section#footer .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    section#footer .footer-text .info > div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      section#footer .footer-text .info > div:not(:last-child) {
+        margin-bottom: 20px; }
+      section#footer .footer-text .info > div > span b {
+        font-size: 20px; }
+      section#footer .footer-text .info > div > span svg, section#footer .footer-text .info > div > span i {
+        color: #F2ECFF;
+        margin-left: 5px;
+        font-size: 18px; }
+      section#footer .footer-text .info > div > h3 {
+        margin: 10px 0 0;
+        font-size: 19px;
+        font-weight: normal; }
+  section#footer .footer-img {
+    width: 50%; }
+  section#footer #map {
+    height: 100%;
+    width: 100%;
+    background-color: #7771A8;
+    border-radius: 10px; }
+
 @media (max-width: 992px) {
   .navbar .container-fluid {
     padding-bottom: 10px; }

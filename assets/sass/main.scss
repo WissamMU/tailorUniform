@@ -380,6 +380,56 @@ section#work {
     }
 }
 
+section#footer {
+    background-color: $primary-color;
+    color: $tertiary-color;
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .info {
+            >div {
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+    
+                >span {
+                    b {
+                        font-size: 20px;
+                    }
+    
+                    svg,i {
+                        color:$text-color;
+                        margin-left: 5px;
+                        font-size: 18px;
+                    }
+                }
+    
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+    
+                >h3 {
+                    margin: 10px 0 0;
+                    font-size: 19px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .footer-img {
+        width: 50%;
+    }
+
+    #map {
+        height: 100%;
+        width: 100%;
+        background-color: $tertiary-color;
+        border-radius: 10px;
+    }
+}
+
 @media (max-width: 992px) {
     .navbar {
         .container-fluid {
