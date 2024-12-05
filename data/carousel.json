@@ -1,10 +1,7 @@
 [
     {
-        "src": "/images/carousel/carousel-1.png",
+        "src": "/images/carousel/carousel-2.png",
         "active": "active"
-    },
-    {
-        "src": "/images/carousel/carousel-2.png"
     },
     {
         "src": "/images/carousel/carousel-3.png"

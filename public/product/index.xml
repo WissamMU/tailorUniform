@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tailor uniform</title>
-    <link>/</link>
-    <description>Recent content on tailor uniform</description>
+    <title>Products on tailor uniform</title>
+    <link>/product/</link>
+    <description>Recent content in Products on tailor uniform</description>
     <generator>Hugo</generator>
     <language>ar</language>
     <lastBuildDate>Thu, 05 Dec 2024 04:14:46 +0300</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Product 1</title>
       <link>/product/product1/</link>

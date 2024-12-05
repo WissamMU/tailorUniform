@@ -24,7 +24,7 @@ body {
         color: white; }
 
 #carouselExampleAutoplaying span.on-img {
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   position: absolute;
   top: 70%;
@@ -36,11 +36,22 @@ body {
   background-position: 100% 0%;
   transition: background-size .7s, background-position .5s ease-in-out;
   text-shadow: 1px 1px 5px black; }
+  #carouselExampleAutoplaying span.on-img:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out; }
 
-#carouselExampleAutoplaying span.on-img:hover {
-  background-size: 100% 100%;
-  background-position: 0% 100%;
-  transition: background-position .7s, background-size .5s ease-in-out; }
+#carouselExampleAutoplaying .line-under {
+  position: relative;
+  padding-bottom: 15px; }
+  #carouselExampleAutoplaying .line-under::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #F2ECFF; }
 
 #carouselExampleAutoplaying .carousel-item {
   position: relative; }
@@ -264,28 +275,45 @@ section#work .product-card {
 section#footer {
   background-color: #312F55;
   color: #7771A8; }
-  section#footer .footer-text {
+  section#footer .Details {
+    font-size: 0.8rem !important; }
+  section#footer .footer-text .info > div {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    section#footer .footer-text .info > div {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; }
-      section#footer .footer-text .info > div:not(:last-child) {
-        margin-bottom: 20px; }
-      section#footer .footer-text .info > div > span b {
+    align-items: flex-start; }
+    section#footer .footer-text .info > div:not(:last-child) {
+      margin-bottom: 20px; }
+    section#footer .footer-text .info > div > span {
+      display: flex; }
+      section#footer .footer-text .info > div > span p {
         font-size: 20px; }
-      section#footer .footer-text .info > div > span svg, section#footer .footer-text .info > div > span i {
+      section#footer .footer-text .info > div > span svg,
+      section#footer .footer-text .info > div > span i {
         color: #F2ECFF;
         margin-left: 5px;
         font-size: 18px; }
-      section#footer .footer-text .info > div > h3 {
-        margin: 10px 0 0;
-        font-size: 19px;
-        font-weight: normal; }
+    section#footer .footer-text .info > div > h3 {
+      text-align: center;
+      margin: 10px 0 0;
+      font-size: 19px;
+      font-weight: normal; }
+  section#footer .footer-text .info .icon-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    section#footer .footer-text .info .icon-holder a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #7771A8; }
+      section#footer .footer-text .info .icon-holder a i {
+        font-size: 30px; }
   section#footer .footer-img {
-    width: 50%; }
+    width: 40%;
+    display: block;
+    margin: 0 auto; }
   section#footer #map {
     height: 100%;
     width: 100%;

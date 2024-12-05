@@ -4,7 +4,6 @@
     </div>
     <div class="row">
         {{ range .Site.Data.products }}
-
         <div class="col-xl-4 col-md-6 mb-3">
             <div class="container-card">
                 <div class="product-img">
@@ -13,7 +12,7 @@
                     </div>
                     {{ if .size }}
                     <p class="pick">المقاسات حسب الطلب</p>
-                {{ end }}
+                    {{ end }}
                 </div>
                 <div class="product">
                     <p>{{ .category }}</p>
@@ -21,16 +20,14 @@
                         <h1>{{ .name }}</h1>
                         <h4>تفاصيل</h4>
                         <p class="desc">
-                            {{ .description}}
+                            {{ .description }}
                         </p>
                     </div>
                     <div>
-                        <a href="./product-page.html">
-                            <button herf="./product-page.html" class="add">المزيد ...</button>
+                        <a href="{{ .link }}">
+                            <button href="" class="add">المزيد ...</button>
                         </a>
-                        <a target="_blank"
-                            href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0"
-                            class="buttons">
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0" class="buttons">
                             <button class="like">
                                 <i class="fab fa-whatsapp fa-lg"></i>
                             </button>
@@ -39,7 +36,17 @@
                 </div>
             </div>
         </div>
-
         {{ end }}
     </div>
 </section>
+        {{ range (where .Site.RegularPages "Section" "product").Reverse }}
+        <div class="services-display__card">
+            <div class="services-display__card-icon">
+                <i class="{{.Params.icon}}"></i>
+            </div>
+            <div class="services-display__card-info">
+                <a href="{{.RelPermalink }}"> {{.Title}} </a>
+                <p> {{ .Params.prev}} </p>
+            </div>
+        </div>
+        {{ end }}
