@@ -2,9 +2,53 @@
 {{ partial "head" . }}
 {{ partial "header" . }}
 
-<h1 style="    text-align: center;
-    padding: 0 0 500px;
-    color: black;"> proudct page not found </h1>
+<div class="back-ground">
+    <div class="container-lg py-5">
+        <div class="row">
+            <div class="col-md-7 product-text">
+                <h1 class="py-3 text-center"> {{.Title}}</h1>
+                <p class="text-center ">
+                    {{ .Params.pargraph1 }}
+                </p>
+                <p class="p-3 text-center">
+                    {{ .Params.pargraph2 }}
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="w-100 product-img" src="{{ .Params.heroImg}}" alt="image not found">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg">
+    <div class="gallary">
+        <section class="image-gallery">
+            <div>
+                <a href="{{ .Params.image1 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image1 }}" alt="image not found">
+                </a>
+                <a href="{{ .Params.image2 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image2 }}" alt="image not found">
+                </a>           
+                <a href="{{ .Params.image3 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image3 }}" alt="image not found">
+                </a>           
+                <a href="{{ .Params.image4 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image4 }}" alt="image not found">
+                </a>           
+                <a href="{{ .Params.image5 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image5 }}" alt="image not found">
+                </a>           
+                <a href="{{ .Params.image6 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image6 }}" alt="image not found">
+                </a>           
+                <a href="{{ .Params.image7 }}" data-lightbox="modles" data-title="cap-1">
+                    <img src="{{ .Params.image7 }}" alt="image not found">
+                </a>           
+            </div>
+        </section>
+    </div>
+</div>
 
 {{ partial "bottom" . }}
 {{ partial "footer" . }}

@@ -320,6 +320,41 @@ section#footer {
     background-color: #7771A8;
     border-radius: 10px; }
 
+.back-ground {
+  background-image: url("../images/carousel/carousel-5.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .back-ground .product-img {
+    border-radius: 10px; }
+  .back-ground .product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-shadow: 1px 1px 2px black; }
+
+.gallary .image-gallery {
+  margin-top: 2rem;
+  text-align: center; }
+  .gallary .image-gallery > div {
+    columns: 3;
+    gap: 1.25rem;
+    padding-top: 1.25rem; }
+  .gallary .image-gallery img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1.25rem; }
+
+@media (max-width: 48rem) {
+  .gallary .image-gallery > div {
+    columns: 2; } }
+
+@media (max-width: 32rem) {
+  .gallary .image-gallery > div {
+    columns: 1; } }
+
 @media (max-width: 992px) {
   .navbar .container-fluid {
     padding-bottom: 10px; }

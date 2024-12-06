@@ -15,5 +15,6 @@
     {{ $css := $sass | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/lightbox.css">
     <title>{{ .Site.Title }}</title>
-</head>
+</head> 
