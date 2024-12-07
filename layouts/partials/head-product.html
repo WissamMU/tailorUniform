@@ -10,23 +10,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{.Site.BaseURL}}images/icons/favicon-16x16.png">
     <link rel="manifest" href="{{.Site.BaseURL}}images/icons/site.webmanifest">
 
-
+    
     {{$sass := resources.Get "sass/main.scss" }}
     {{ $css := $sass | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/lightbox.css">
-    <title>{{ .Site.Title }} | product</title>
+    <title>{{ .Site.Title }}</title>
 
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/lightbox.css">
-
+    
     <link rel="apple-touch-icon" sizes="180x180" href="../../images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../images/icons/favicon-16x16.png">
     <link rel="manifest" href="../../images/icons/site.webmanifest">
 
-    <link rel="stylesheet" type="text/css" href="../../css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/all.min.css">
 
-
-</head>
+</head> 
