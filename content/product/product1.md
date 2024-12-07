@@ -17,4 +17,4 @@ image4: "../../images/product/t-shirt/image4.jpg"
 image5: "../../images/product/t-shirt/image5.jpg"
 image6: "../../images/product/t-shirt/image6.jpg"
 image7: "../../images/product/t-shirt/image7.jpg"
----
+--- 

@@ -1,0 +1,9 @@
+[
+    {
+        "heroImg": "../../images/product/t-shirt/main.png",
+        "images": [
+            "../../images/product/t-shirt/image1.jpg",
+            "../../images/product/t-shirt/image2.jpg"
+        ]
+    }
+]
