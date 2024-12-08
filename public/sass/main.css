@@ -191,6 +191,21 @@ section.container-fluid {
       .container-card footer a:hover {
         color: #7d7d7d; }
 
+section#about-us {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  section#about-us .about-us-details {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+    color: #4E4E4E;
+    text-align: center;
+    background-color: rgba(119, 113, 168, 0.8);
+    color: #F2ECFF;
+    border-radius: 10px; }
+
 section#work .product-card {
   display: flex;
   justify-content: center; }
@@ -349,6 +364,18 @@ section#footer {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 1.25rem; }
+
+.gallary .contact-holder {
+  display: flex;
+  justify-content: center; }
+  .gallary .contact-holder #contactUs {
+    display: inline-block !important;
+    padding: 10px 25px !important;
+    border-radius: 10px !important;
+    background-color: #7771A8 !important;
+    color: #F2ECFF !important;
+    font-weight: 700 !important;
+    text-decoration: none !important; }
 
 @media (max-width: 48rem) {
   .gallary .image-gallery > div {

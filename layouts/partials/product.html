@@ -27,7 +27,9 @@
                         <a href="{{ .link }}">
                             <button href="" class="add">المزيد ...</button>
                         </a>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0" class="buttons">
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0"
+                            class="buttons">
                             <button class="like">
                                 <i class="fab fa-whatsapp fa-lg"></i>
                             </button>
@@ -39,14 +41,3 @@
         {{ end }}
     </div>
 </section>
-        {{ range (where .Site.RegularPages "Section" "product").Reverse }}
-        <div class="services-display__card">
-            <div class="services-display__card-icon">
-                <i class="{{.Params.icon}}"></i>
-            </div>
-            <div class="services-display__card-info">
-                <a href="{{.RelPermalink }}"> {{.Title}} </a>
-                <p> {{ .Params.prev}} </p>
-            </div>
-        </div>
-        {{ end }}

@@ -2,17 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/product/</loc>
+    <loc>https://tailoruniform.pages.dev/product/</loc>
     <lastmod>2024-12-05T04:14:46+03:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://tailoruniform.pages.dev/</loc>
     <lastmod>2024-12-05T04:14:46+03:00</lastmod>
   </url><url>
-    <loc>/product/product1/</loc>
+    <loc>https://tailoruniform.pages.dev/product/product2/</loc>
     <lastmod>2024-12-05T04:14:46+03:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://tailoruniform.pages.dev/product/product6/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://tailoruniform.pages.dev/product/product4/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product1/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product7/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product10/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product11/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product9/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product5/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product8/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/product/product3/</loc>
+    <lastmod>2024-12-05T04:14:46+03:00</lastmod>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/categories/</loc>
+  </url><url>
+    <loc>https://tailoruniform.pages.dev/tags/</loc>
   </url>
 </urlset>

@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://tailoruniform.pages.dev/'
 relativerURL = 'True'
 languageCode = 'ar'
 title = 'tailor uniform'
