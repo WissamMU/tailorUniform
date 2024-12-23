@@ -1,23 +1,66 @@
 {
-    "work1":{
-        "catagory":"تيشرتات",
-        "middleImg":"/images/cards/card-1.png",
-        "leftImg":"/images/cards/card-2.png",
-        "rightImg":"/images/cards/card-3.png",
-        "backImg":"/images/carousel/carousel-3.png"
+    "work1": {
+        "catagory": "تيشرتات",
+        "link": "/product/product1/",
+        "middleImg": "/images/cards/card-1.png",
+        "leftImg": "/images/cards/card-2.png",
+        "rightImg": "/images/cards/card-3.png",
+        "backImg": "/images/carousel/carousel-3.png"
     },
-    "work3":{
-        "catagory":"بدلة عمل",
-        "middleImg":"/images/cards/card-6.png",
-        "leftImg":"/images/cards/card-5.png",
-        "rightImg":"/images/cards/card-4.png",
-        "backImg":"/images/carousel/carousel-3.png"
+    "work3": {
+        "catagory": "بدلة عمل",
+        "link": "/product/product2/",
+        "middleImg": "/images/cards/card-6.png",
+        "leftImg": "/images/cards/card-5.png",
+        "rightImg": "/images/cards/card-4.png",
+        "backImg": "/images/carousel/carousel-3.png"
     },
-    "work2":{
-        "catagory":"ملابس طبية",
-        "middleImg":"/images/cards/card-7.png",
-        "leftImg":"/images/cards/card-9.png",
-        "rightImg":"/images/cards/card-8.png",
-        "backImg":"/images/carousel/carousel-4.png"
+    "work2": {
+        "catagory": "ملابس طبية",
+        "link": "/product/product8/",
+        "middleImg": "/images/cards/card-7.png",
+        "leftImg": "/images/cards/card-9.png",
+        "rightImg": "/images/cards/card-8.png",
+        "backImg": "/images/carousel/carousel-4.png"
+    },
+    "work4": {
+        "catagory": "قبعات",
+        "link": "/product/product10/",
+        "middleImg": "/images/cards/card-10.png",
+        "leftImg": "/images/cards/card-12.png",
+        "rightImg": "/images/cards/card-11.png",
+        "backImg": "/images/carousel/carousel-3.png"
+    },
+    "work5": {
+        "catagory": "مريول",
+        "link": "/product/product5/",
+        "middleImg": "/images/cards/card-15.png",
+        "leftImg": "/images/cards/card-13.png",
+        "rightImg": "/images/cards/card-14.png",
+        "backImg": "/images/carousel/carousel-3.png"
+    },
+    "work6": {
+        "catagory": "شيف",
+        "link": "/product/product6/",
+        "middleImg": "/images/cards/card-16.png",
+        "leftImg": "/images/cards/card-17.png",
+        "rightImg": "/images/cards/card-18.png",
+        "backImg": "/images/carousel/carousel-3.png"
+    },
+    "work7": {
+        "catagory": "سديري",
+        "link": "/product/product7/",
+        "middleImg": "/images/cards/card-19.png",
+        "leftImg": "/images/cards/card-20.png",
+        "rightImg": "/images/cards/card-21.png",
+        "backImg": "/images/carousel/carousel-3.png"
+    },
+    "work8": {
+        "catagory": "سديري",
+        "link": "/product/product7/",
+        "middleImg": "/images/cards/card-22.png",
+        "leftImg": "/images/cards/card-23.png",
+        "rightImg": "/images/cards/card-24.png",
+        "backImg": "/images/carousel/carousel-3.png"
     }
 }

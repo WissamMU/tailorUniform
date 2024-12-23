@@ -319,7 +319,9 @@ section#work {
             position: relative;
             width: 80%;
             height: 80%;
-
+            a{
+                color: $text-color;
+            }
             h1.card-title {
                 position: absolute;
                 background-color: $primary-color;

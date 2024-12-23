@@ -7,10 +7,11 @@
 
     <div class="product-card mb-3">
         <div class="product-back">
-
-            <h1 class="card-title">
-                {{ .catagory}}
-            </h1>
+            <a href="{{ .link }}">
+                <h1 class="card-title">
+                    {{ .catagory}}
+                </h1>
+            </a>
             <a target="_blank"
                 href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0">
                 <h1 class="card-contact">
@@ -40,7 +41,6 @@
         </div>
 
     </div>
-
     {{end}}
 
 </section>

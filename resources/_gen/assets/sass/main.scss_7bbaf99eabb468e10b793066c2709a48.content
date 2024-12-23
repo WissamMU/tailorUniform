@@ -213,6 +213,8 @@ section#work .product-card {
     position: relative;
     width: 80%;
     height: 80%; }
+    section#work .product-card .product-back a {
+      color: #F2ECFF; }
     section#work .product-card .product-back h1.card-title {
       position: absolute;
       background-color: #7771A8;
