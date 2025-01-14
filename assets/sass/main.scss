@@ -23,6 +23,10 @@ body {
     }
 
     .collapse {
+        .nav-link {
+            color: $text-color;
+        }
+
         a {
             color: $text-color;
             font-size: 20px;
@@ -35,12 +39,16 @@ body {
 
         .dropdown-menu {
             background-color: $tertiary-color;
-
+            color: $text-color;
+            .dropdown-divider{
+                border-top: 1px solid $primary-color;
+            }
             a {
                 color: $text-color;
 
                 &:hover {
-                    color: lighten($text-color, 20%);
+                    // color: lighten($text-color, 20%);
+                    color: $primary-color;
                 }
             }
         }
@@ -300,7 +308,7 @@ section#about-us {
         margin-bottom: 30px;
         color: $dark-gray;
         text-align: center;
-    
+
         background-color: rgba($primary-color, 0.8);
         color: $text-color;
         border-radius: 10px;
@@ -319,9 +327,11 @@ section#work {
             position: relative;
             width: 80%;
             height: 80%;
-            a{
+
+            a {
                 color: $text-color;
             }
+
             h1.card-title {
                 position: absolute;
                 background-color: $primary-color;
@@ -436,8 +446,12 @@ section#footer {
                     margin-bottom: 20px;
                 }
 
-                >span {
+                span {
                     display: flex;
+
+                    a {
+                        color: $primary-color;
+                    }
 
                     p {
                         font-size: 20px;
@@ -455,11 +469,15 @@ section#footer {
                 flex-direction: column;
                 align-items: flex-start;
 
-                >h3 {
+                h3 {
                     text-align: center;
                     margin: 10px 0 0;
                     font-size: 19px;
                     font-weight: normal;
+
+                    a {
+                        color: $primary-color;
+                    }
                 }
             }
 

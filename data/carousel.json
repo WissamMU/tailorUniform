@@ -1,12 +1,15 @@
 [
     {
-        "src": "/images/carousel/carousel-2.png",
-        "active": "active"
+        "src": "/images/carousel/carousel-2.png"
     },
     {
         "src": "/images/carousel/carousel-3.png"
     },
     {
         "src": "/images/carousel/carousel-4.png"
+    },
+    {
+        "src": "/images/carousel/carousel-5.png",
+        "active": "active"
     }
 ]

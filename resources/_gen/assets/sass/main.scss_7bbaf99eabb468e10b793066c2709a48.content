@@ -11,17 +11,22 @@ body {
     color: #F2ECFF; }
   .navbar .navbar-brand img {
     width: 100px; }
+  .navbar .collapse .nav-link {
+    color: #F2ECFF; }
   .navbar .collapse a {
     color: #F2ECFF;
     font-size: 20px; }
     .navbar .collapse a:hover {
       color: white; }
   .navbar .collapse .dropdown-menu {
-    background-color: #312F55; }
+    background-color: #312F55;
+    color: #F2ECFF; }
+    .navbar .collapse .dropdown-menu .dropdown-divider {
+      border-top: 1px solid #7771A8; }
     .navbar .collapse .dropdown-menu a {
       color: #F2ECFF; }
       .navbar .collapse .dropdown-menu a:hover {
-        color: white; }
+        color: #7771A8; }
 
 #carouselExampleAutoplaying span.on-img {
   font-size: 1.8em;
@@ -300,20 +305,24 @@ section#footer {
     align-items: flex-start; }
     section#footer .footer-text .info > div:not(:last-child) {
       margin-bottom: 20px; }
-    section#footer .footer-text .info > div > span {
+    section#footer .footer-text .info > div span {
       display: flex; }
-      section#footer .footer-text .info > div > span p {
+      section#footer .footer-text .info > div span a {
+        color: #7771A8; }
+      section#footer .footer-text .info > div span p {
         font-size: 20px; }
-      section#footer .footer-text .info > div > span svg,
-      section#footer .footer-text .info > div > span i {
+      section#footer .footer-text .info > div span svg,
+      section#footer .footer-text .info > div span i {
         color: #F2ECFF;
         margin-left: 5px;
         font-size: 18px; }
-    section#footer .footer-text .info > div > h3 {
+    section#footer .footer-text .info > div h3 {
       text-align: center;
       margin: 10px 0 0;
       font-size: 19px;
       font-weight: normal; }
+      section#footer .footer-text .info > div h3 a {
+        color: #7771A8; }
   section#footer .footer-text .info .icon-holder {
     display: flex;
     flex-direction: row;
