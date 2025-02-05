@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-0 px-3 ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}index.html"><img src="{{ .Site.BaseURL }}images/logo.png"
+                alt="logo not found"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        منتجات
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{ range .Site.Data.products }}
+                        <li><a class="dropdown-item" href="{{ .link }}">{{ .name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        طرق التواصل
+                    </a>
+                    <ul class="dropdown-menu">
+                        <p class="text-center">اتصل بنا</p>
+                        <li><a dir="ltr" class="dropdown-item" href="tel:966598538001">+966 59 853 8001 <i
+                                    class="fas fa-phone"></i></a></li>
+                        <li><a dir="ltr" class="dropdown-item" href="tel:966596178001">+966 59 617 8001 <i
+                                    class="fas fa-phone"></i></a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <p class="text-center">ارسل ايميل</p>
+                        <li><a dir="ltr" class="dropdown-item" href="mailto:info@tailoruniforms.net">
+                                info@tailoruniforms.net <i class="fas fa-envelope"></i></a></li>
+                        <li><a dir="ltr" class="dropdown-item" href="mailto:sales@tailoruniforms.net">
+                                sales@tailoruniforms.net <i class="fas fa-envelope"></i></a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <p class="text-center">واتساب</p>
+                        <li><a dir="ltr" class="dropdown-item"
+                                href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0">
+                                اضغط للذهاب <i class="fab fa-whatsapp"></i></a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <a target="_blank"
+                href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0"
+                style="  text-decoration: none;">
+                تواصل معنا
+                <span class="ltr" dir="ltr">+966 59 853 8001</span>
+                <i class="fab fa-whatsapp fa-lg" style="color: #63E6BE;"></i>
+            </a>
+        </div>
+    </div>
+</nav>
