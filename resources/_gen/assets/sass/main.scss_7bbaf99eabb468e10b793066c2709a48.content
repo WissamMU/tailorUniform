@@ -9,8 +9,12 @@ body {
   background-color: #312F55 !important; }
   .navbar .fa-bars {
     color: #F2ECFF; }
-  .navbar .navbar-brand img {
-    width: 100px; }
+  .navbar .navbar-brand {
+    font-size: large;
+    color: #7771A8 !important;
+    background-color: #444176; }
+    .navbar .navbar-brand img {
+      width: 100px; }
   .navbar .collapse .nav-link {
     color: #F2ECFF; }
   .navbar .collapse a {
@@ -39,18 +43,18 @@ body {
   background-size: 100% 10px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  transition: background-size .7s, background-position .5s ease-in-out;
+  transition: background-size 0.7s, background-position 0.5s ease-in-out;
   text-shadow: 1px 1px 5px black; }
   #carouselExampleAutoplaying span.on-img:hover {
     background-size: 100% 100%;
     background-position: 0% 100%;
-    transition: background-position .7s, background-size .5s ease-in-out; }
+    transition: background-position 0.7s, background-size 0.5s ease-in-out; }
 
 #carouselExampleAutoplaying .line-under {
   position: relative;
   padding-bottom: 15px; }
   #carouselExampleAutoplaying .line-under::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -134,7 +138,7 @@ section.container-fluid {
     letter-spacing: 0;
     margin-bottom: 17px;
     color: #4E4E4E;
-    font-size: .7em;
+    font-size: 0.7em;
     line-height: 1.6em;
     margin-left: 25px;
     text-align: justify; }
@@ -152,7 +156,7 @@ section.container-fluid {
     cursor: pointer; }
     .container-card button:hover {
       background: #BA7E7E;
-      transition: all .4s ease-in-out; }
+      transition: all 0.4s ease-in-out; }
   .container-card .add {
     width: 67%; }
   .container-card .like {
@@ -177,7 +181,7 @@ section.container-fluid {
     .container-card .size:hover {
       background: #BA7E7E;
       color: #F5F5F5;
-      transition: all .4s ease-in-out; }
+      transition: all 0.4s ease-in-out; }
   .container-card .focus {
     background: #BA7E7E;
     color: #F5F5F5; }
@@ -448,7 +452,7 @@ section#footer {
   .container-card h1 {
     font-size: 1em; }
   .container-card h4 {
-    font-size: .8em; }
+    font-size: 0.8em; }
   .container-card .desc {
     font-size: 0.65em; }
   .container-card img {
