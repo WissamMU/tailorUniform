@@ -6,13 +6,13 @@ body {
   color: #F2ECFF; }
 
 .navbar {
-  background-color: #312F55 !important; }
+  background-color: #029c98 !important; }
   .navbar .fa-bars {
     color: #F2ECFF; }
   .navbar .navbar-brand {
     font-size: large;
-    color: #7771A8 !important;
-    background-color: #444176; }
+    color: #5cd3ce !important;
+    background-color: #029c98; }
     .navbar .navbar-brand img {
       width: 100px; }
   .navbar .collapse .nav-link {
@@ -23,14 +23,14 @@ body {
     .navbar .collapse a:hover {
       color: white; }
   .navbar .collapse .dropdown-menu {
-    background-color: #312F55;
+    background-color: #029c98;
     color: #F2ECFF; }
     .navbar .collapse .dropdown-menu .dropdown-divider {
-      border-top: 1px solid #7771A8; }
+      border-top: 1px solid #5cd3ce; }
     .navbar .collapse .dropdown-menu a {
       color: #F2ECFF; }
       .navbar .collapse .dropdown-menu a:hover {
-        color: #7771A8; }
+        color: #5cd3ce; }
 
 #carouselExampleAutoplaying span.on-img {
   font-size: 1.8em;
@@ -39,7 +39,7 @@ body {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: linear-gradient(#7771A8, #7771A8);
+  background-image: linear-gradient(#5cd3ce, #5cd3ce);
   background-size: 100% 10px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
@@ -64,7 +64,23 @@ body {
 
 #carouselExampleAutoplaying .carousel-item {
   position: relative; }
-  #carouselExampleAutoplaying .carousel-item img {
+  #carouselExampleAutoplaying .carousel-item .on-img {
+    position: absolute;
+    z-index: 3;
+    color: #F2ECFF; }
+  #carouselExampleAutoplaying .carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    /* White overlay with 50% opacity */
+    pointer-events: none;
+    /* keeps carousel controls clickable */
+    z-index: 2; }
+  #carouselExampleAutoplaying .carousel-item video, #carouselExampleAutoplaying .carousel-item img {
     height: 700px;
     object-fit: cover;
     object-position: center; }
@@ -79,7 +95,7 @@ section.container-fluid {
   display: inline-block;
   padding: 10px 25px;
   border-radius: 10px;
-  background-color: #7771A8;
+  background-color: #5cd3ce;
   font-weight: 700; }
 
 .container-card {
@@ -89,14 +105,14 @@ section.container-fluid {
   width: 100%;
   height: 350px;
   background: #F5F5F5;
-  box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+  box-shadow: 5px 5px 15px rgba(92, 211, 206, 0.5);
   border-radius: 10px;
   direction: rtl;
   display: flex;
   align-items: center; }
   .container-card p {
     font-size: 0.6em;
-    color: #BA7E7E;
+    color: #5cd3ce;
     letter-spacing: 1px; }
   .container-card h1 {
     font-size: 1.2em;
@@ -118,7 +134,7 @@ section.container-fluid {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #E0C9CB;
+    background: #5cd3ce;
     right: 22%; }
   .container-card .product-img,
   .container-card .product {
@@ -143,7 +159,7 @@ section.container-fluid {
     margin-left: 25px;
     text-align: justify; }
   .container-card button {
-    background: #cda9ac;
+    background: #36c6c0;
     padding: 10px;
     display: inline-block;
     outline: 0;
@@ -155,7 +171,7 @@ section.container-fluid {
     color: #F5F5F5;
     cursor: pointer; }
     .container-card button:hover {
-      background: #BA7E7E;
+      background: #5cd3ce;
       transition: all 0.4s ease-in-out; }
   .container-card .add {
     width: 67%; }
@@ -175,15 +191,15 @@ section.container-fluid {
     text-align: center; }
   .container-card .size {
     padding: 9px;
-    border: 1px solid #E0C9CB;
+    border: 1px solid #5cd3ce;
     font-size: 0.7em;
     text-align: center; }
     .container-card .size:hover {
-      background: #BA7E7E;
+      background: #5cd3ce;
       color: #F5F5F5;
       transition: all 0.4s ease-in-out; }
   .container-card .focus {
-    background: #BA7E7E;
+    background: #5cd3ce;
     color: #F5F5F5; }
   .container-card footer {
     position: absolute;
@@ -211,7 +227,7 @@ section#about-us {
     margin-bottom: 30px;
     color: #4E4E4E;
     text-align: center;
-    background-color: rgba(119, 113, 168, 0.8);
+    background-color: rgba(92, 211, 206, 0.8);
     color: #F2ECFF;
     border-radius: 10px; }
 
@@ -226,7 +242,7 @@ section#work .product-card {
       color: #F2ECFF; }
     section#work .product-card .product-back h1.card-title {
       position: absolute;
-      background-color: #7771A8;
+      background-color: #5cd3ce;
       top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -236,7 +252,7 @@ section#work .product-card {
       z-index: 1; }
     section#work .product-card .product-back h1.card-contact {
       position: absolute;
-      background-color: #7771A8;
+      background-color: #5cd3ce;
       top: 90%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -248,8 +264,8 @@ section#work .product-card {
     section#work .product-card .product-back .cube {
       position: absolute;
       height: 60%;
-      background: #7771A8;
-      box-shadow: 0 0 10px rgba(119, 113, 168, 0.5);
+      background: #5cd3ce;
+      box-shadow: 0 0 10px rgba(92, 211, 206, 0.5);
       z-index: 1;
       display: flex;
       flex-direction: column-reverse; }
@@ -299,8 +315,8 @@ section#work .product-card {
       border-radius: 50px; }
 
 section#footer {
-  background-color: #312F55;
-  color: #7771A8; }
+  background-color: #029c98;
+  color: #4E4E4E; }
   section#footer .Details {
     font-size: 0.8rem !important; }
   section#footer .footer-text .info > div {
@@ -312,7 +328,7 @@ section#footer {
     section#footer .footer-text .info > div span {
       display: flex; }
       section#footer .footer-text .info > div span a {
-        color: #7771A8; }
+        color: #4E4E4E; }
       section#footer .footer-text .info > div span p {
         font-size: 20px; }
       section#footer .footer-text .info > div span svg,
@@ -326,7 +342,7 @@ section#footer {
       font-size: 19px;
       font-weight: normal; }
       section#footer .footer-text .info > div h3 a {
-        color: #7771A8; }
+        color: #4E4E4E; }
   section#footer .footer-text .info .icon-holder {
     display: flex;
     flex-direction: row;
@@ -337,7 +353,7 @@ section#footer {
       flex-direction: column;
       align-items: center;
       text-decoration: none;
-      color: #7771A8; }
+      color: #5cd3ce; }
       section#footer .footer-text .info .icon-holder a i {
         font-size: 30px; }
   section#footer .footer-img {
@@ -347,7 +363,7 @@ section#footer {
   section#footer #map {
     height: 100%;
     width: 100%;
-    background-color: #7771A8;
+    background-color: #5cd3ce;
     border-radius: 10px; }
 
 .back-ground {
@@ -363,7 +379,7 @@ section#footer {
     flex-direction: column;
     justify-content: space-evenly;
     text-shadow: 1px 1px 2px black;
-    background-color: rgba(119, 113, 168, 0.8);
+    background-color: rgba(92, 211, 206, 0.8);
     padding: 10px;
     border-radius: 10px; }
 
@@ -387,7 +403,7 @@ section#footer {
     display: inline-block !important;
     padding: 10px 25px !important;
     border-radius: 10px !important;
-    background-color: #7771A8 !important;
+    background-color: #5cd3ce !important;
     color: #F2ECFF !important;
     font-weight: 700 !important;
     text-decoration: none !important; }
@@ -409,7 +425,7 @@ section#footer {
 @media (max-width: 768px) {
   #carouselExampleAutoplaying span.on-img {
     font-size: 1.5em; }
-  #carouselExampleAutoplaying .carousel-item img {
+  #carouselExampleAutoplaying .carousel-item video, #carouselExampleAutoplaying .carousel-item img {
     height: 600px !important; }
   #product {
     padding: 0 50px; }
@@ -442,7 +458,7 @@ section#footer {
 @media (max-width: 576px) {
   #carouselExampleAutoplaying span.on-img {
     font-size: 0.9em; }
-  #carouselExampleAutoplaying .carousel-item img {
+  #carouselExampleAutoplaying .carousel-item video, #carouselExampleAutoplaying .carousel-item img {
     height: 400px !important; }
   #product {
     padding: 0; }

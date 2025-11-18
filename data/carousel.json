@@ -1,15 +1,23 @@
 [
     {
-        "src": "/images/carousel/carousel-2.png"
+        "src": "/images/carousel/carousel-2.png",
+        "type": "img"
     },
     {
-        "src": "/images/carousel/carousel-3.png"
+        "src": "/images/carousel/carousel-4.png",
+        "type": "img"
     },
     {
-        "src": "/images/carousel/carousel-4.png"
+        "src": "/videos/c1.mp4",
+        "active": "active",
+        "type": "video"
     },
     {
-        "src": "/images/carousel/carousel-5.png",
-        "active": "active"
+        "src": "/videos/c3.mp4",
+        "type": "video"
+    },
+    {
+        "src": "/videos/c2.mp4",
+        "type": "video"
     }
 ]
