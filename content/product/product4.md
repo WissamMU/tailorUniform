@@ -7,8 +7,9 @@ pargraph2: "
     تم تصميم بنداناتنا لتناسب جميع أشكال الرأس وتوفر لك أقصى قدر من الراحة. فهي مثالية للحفاظ على شعرك جافاً أثناء الطبخ او التمارين الرياضية المكثفة أو العمل في الأماكن الحارة. كما أنها تساعد في منع تساقط الشعر وتوفر لك مظهراً أنيقاً في جميع الأوقات.
 "
 heroImg: "../../images/product/bandana/main.png"
-image1: "../../images/product/bandana/image1.png"
-image2: "../../images/product/bandana/image2.png"
-image3: "../../images/product/bandana/image3.png"
+images:
+- "../../images/product/bandana/image1.png"
+- "../../images/product/bandana/image2.png"
+- "../../images/product/bandana/image3.png"
 
 ---

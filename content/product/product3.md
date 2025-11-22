@@ -7,7 +7,8 @@ pargraph2: "
     تم تصميم ملابسنا الواقية لتكون مريحة وسهلة الحركة فيها طوال اليوم. تتميز بتصميمها الانسيابي وحرية الحركة، مما يسمح لك بالتركيز على مهامك دون قيود. كما أنها مزودة بتفاصيل عاكسة للضوء لزيادة الرؤية في الأماكن ذات الإضاءة المنخفضة، مما يضمن سلامتك في جميع الأوقات.
 "
 heroImg: "../../images/product/safety_clothes/main.png"
-image1: "../../images/product/safety_clothes/image1.png"
-image2: "../../images/product/safety_clothes/image2.png"
+images:
+- "../../images/product/safety_clothes/image1.png"
+- "../../images/product/safety_clothes/image2.png"
 
 ---

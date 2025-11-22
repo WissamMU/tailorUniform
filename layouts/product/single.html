@@ -24,43 +24,16 @@
     <div class="gallary">
         <section class="image-gallery">
             <div>
-                {{ if .Params.image1 }}
-                <a href="{{ .Params.image1 }}" data-lightbox="modles" data-title="الصورة-1">
-                    <img src="{{ .Params.image1 }}" alt="image not found">
+                {{ with .Params.images }}
+                {{ range $index, $img := . }}
+                <a href="{{ $img }}" data-lightbox="modles" data-title="الصورة-{{ add $index 1 }}">
+                    <img src="{{ $img }}" alt="image not found">
                 </a>
                 {{ end }}
-                {{ if .Params.image2 }}
-                <a href="{{ .Params.image2 }}" data-lightbox="modles" data-title="الصورة-2">
-                    <img src="{{ .Params.image2 }}" alt="image not found">
-                </a>
-                {{ end }}
-                {{ if .Params.image3 }}
-                <a href="{{ .Params.image3 }}" data-lightbox="modles" data-title="الصورة-3">
-                    <img src="{{ .Params.image3 }}" alt="image not found">
-                </a>
-                {{ end }}
-                {{ if .Params.image4 }}
-                <a href="{{ .Params.image4 }}" data-lightbox="modles" data-title="الصورة-4">
-                    <img src="{{ .Params.image4 }}" alt="image not found">
-                </a>
-                {{ end }}
-                {{ if .Params.image5 }}
-                <a href="{{ .Params.image5 }}" data-lightbox="modles" data-title="الصورة-5">
-                    <img src="{{ .Params.image5 }}" alt="image not found">
-                </a>
-                {{ end }}
-                {{ if .Params.image6 }}
-                <a href="{{ .Params.image6 }}" data-lightbox="modles" data-title="الصورة-6">
-                    <img src="{{ .Params.image6 }}" alt="image not found">
-                </a>
-                {{ end }}
-                {{ if .Params.image7 }}
-                <a href="{{ .Params.image7 }}" data-lightbox="modles" data-title="الصورة-7">
-                    <img src="{{ .Params.image7 }}" alt="image not found">
-                </a>
                 {{ end }}
             </div>
         </section>
+
         <div class="contact-holder mt-3">
             <a id="contactUs" target="_blank"
                 href="https://api.whatsapp.com/send/?phone=%2B966598538001&text&type=phone_number&app_absent=0">

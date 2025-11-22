@@ -7,8 +7,8 @@ pargraph2: "
     تتميز هذه القبعة بتصميمها الكلاسيكي الذي يجعل منها إضافة أنيقة لأي زي مطبخ. كما أنها تساعد في الحفاظ على نظافة شعرك ومنع تساقط الشعر على الطعام، مما يضمن أعلى معايير النظافة في المطبخ. ويمكننا تخصيص هذه القبعة بشعار مطعمك أو اسمك لتعكس هوية عملك.
 "
 heroImg: "../../images/product/chef_hat/main.png"
-image1: "../../images/product/chef_hat/main.png"
-image2: "../../images/product/chef_hat/image2.png"
-image3: "../../images/product/chef_hat/image3.png"
-
+images:
+- "../../images/product/chef_hat/main.png"
+- "../../images/product/chef_hat/image2.png"
+- "../../images/product/chef_hat/image3.png"
 ---

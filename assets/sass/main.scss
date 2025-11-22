@@ -62,7 +62,7 @@ body {
 
 #carouselExampleAutoplaying {
   span.on-img {
-    color: $old-primary-color;
+    color: $text-color;
     padding: 10px;
     border-radius: 5%;
     font-size: 1.8em;
@@ -76,7 +76,7 @@ body {
     background-repeat: no-repeat;
     background-position: 100% 0%;
     transition: background-size 0.7s, background-position 0.5s ease-in-out;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px black;
 
     &:hover {
       background-size: 100% 100%;
@@ -143,6 +143,7 @@ section.container-fluid {
   border-radius: 10px;
   background-color: $primary-color;
   font-weight: 700;
+  color: $old-primary-color ;
 }
 
 .container-card {
@@ -566,6 +567,12 @@ section#footer {
       width: 100%;
       border-radius: 5px;
       margin-bottom: 1.25rem;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
     }
   }
 
@@ -584,15 +591,114 @@ section#footer {
     }
   }
 
+  /* Lightbox Custom Size Styles */
+  .lightboxOverlay {
+    background: rgba(0, 0, 0, 0.95) !important;
+    backdrop-filter: blur(5px);
+  }
+
+  .lightbox .lb-image {
+
+    max-width: 1600px !important;
+    max-height: 90vh !important;
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .lb-outerContainer {
+    max-width: 1600px !important;
+    max-height: 90vh !important;
+    background: transparent !important;
+    border-radius: 12px !important;
+
+  }
+
+  .lb-container {
+    padding: 0 !important;
+    border-radius: 12px !important;
+    
+  }
+
+  .lb-dataContainer {
+    max-width: 1600px !important;
+    margin-top: 20px !important;
+    background: transparent !important;
+    border-radius: 8px !important;
+  }
+
+  .lb-nav {
+
+    a.lb-prev,
+    a.lb-next {
+      opacity: 0.9 !important;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  .lb-close {
+    opacity: 0.9 !important;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  @media (max-width: 1700px) {
+    .lightbox .lb-image {
+      max-width: 95vw !important;
+    }
+
+    .lb-outerContainer {
+      max-width: 95vw !important;
+    }
+
+    .lb-dataContainer {
+      max-width: 95vw !important;
+    }
+  }
+
   @media (max-width: 48rem) {
     .image-gallery>div {
       columns: 2;
+    }
+
+    .lightbox .lb-image {
+      max-width: 98vw !important;
+      max-height: 85vh !important;
+    }
+
+    .lb-outerContainer {
+      max-width: 98vw !important;
+      max-height: 85vh !important;
     }
   }
 
   @media (max-width: 32rem) {
     .image-gallery>div {
       columns: 1;
+    }
+
+    .lightbox .lb-image {
+      max-width: 98vw !important;
+      max-height: 80vh !important;
+    }
+
+    .lb-outerContainer {
+      max-width: 98vw !important;
+      max-height: 80vh !important;
+    }
+
+    .lb-dataContainer {
+      margin-top: 15px !important;
+      padding: 0 10px !important;
     }
   }
 }

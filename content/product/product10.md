@@ -7,8 +7,9 @@ pargraph2: "
     تم تصميم قبعتنا الشمسية لتكون عصرية وأنيقة في نفس الوقت. فهي تتميز بتصميمها الواسع الذي يوفر حماية شاملة لوجهك ورقبتك، مما يقلل من خطر الإصابة بحروق الشمس. كما أنها خفيفة الوزن وسهلة الحمل، مما يجعلها مثالية للاستخدام اليومي.
 "
 heroImg: "../../images/product/cap/main.png"
-image1: "../../images/product/cap/image1.png"
-image2: "../../images/product/cap/image2.png"
-image3: "../../images/product/cap/image3.png"
-image4: "../../images/product/cap/image4.png"
+images:
+- "../../images/product/cap/image1.png"
+- "../../images/product/cap/image2.png"
+- "../../images/product/cap/image3.png"
+- "../../images/product/cap/image4.png"
 ---

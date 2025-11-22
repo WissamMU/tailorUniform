@@ -7,8 +7,9 @@ pargraph2: "
     يتميز هذا المعطف بتصميمه الأنيق والعصري، مما يجعلك تبدو محترفًا في كل الأوقات. كما أنه مزود بجيوب خارجية متعددة لتخزين أدواتك الطبية، مما يسهل عليك الوصول إليها عند الحاجة. قماش هذا المعطف مقاوم للبقع والسوائل، مما يجعله سهل التنظيف والحفاظ عليه.
 "
 heroImg: "../../images/product/medical_coat/main.png"
-image1: "../../images/product/medical_coat/image1.png"
-image2: "../../images/product/medical_coat/image2.png"
-image3: "../../images/product/medical_coat/image3.png"
+images:
+- "../../images/product/medical_coat/image1.png"
+- "../../images/product/medical_coat/image2.png"
+- "../../images/product/medical_coat/image3.png"
 
 ---

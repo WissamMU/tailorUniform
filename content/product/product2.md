@@ -7,12 +7,56 @@ pargraph2: '
     تم تصميم بدلات العمل لدينا لتوفير الراحة القصوى والأداء الأمثل. تتميز بتصميمها الانسيابي وحرية الحركة، مما يسمح للعمال بالتركيز على مهامهم دون قيود. كما أنها متوفرة بمجموعة متنوعة من المقاسات والألوان لتلبية احتياجات جميع العملاء. 
     تتوفر بدلات العمل لدينا مع أو بدون تفاصيل عاكسة للضوء لزيادة الرؤية في الأماكن ذات الإضاءة المنخفضة، مما يضمن سلامة العمال.
 '
-heroImg: '../../images/product/work_suit/main.png'
-image1:  '../../images/product/work_suit/image1.png'
-image2:  '../../images/product/work_suit/image2.png'
-image3:  '../../images/product/work_suit/image3.png'
-image4:  '../../images/product/work_suit/image4.png'
-image5:  '../../images/product/work_suit/image5.png'
-image6:  '../../images/product/work_suit/image6.png'
-image7:  '../../images/product/work_suit/image7.png'
+heroImg : "../../images/product/work_suit/main.png"
+images:
+  - "../../images/product/work_suit/(1).webp"
+  - "../../images/product/work_suit/(2).webp"
+  - "../../images/product/work_suit/(3).webp"
+  - "../../images/product/work_suit/(4).webp"
+  - "../../images/product/work_suit/(5).webp"
+  - "../../images/product/work_suit/(6).webp"
+  - "../../images/product/work_suit/(7).webp"
+  - "../../images/product/work_suit/(8).webp"
+  - "../../images/product/work_suit/(9).webp"
+  - "../../images/product/work_suit/(10).webp"
+  - "../../images/product/work_suit/(11).webp"
+  - "../../images/product/work_suit/(12).webp"
+  - "../../images/product/work_suit/(13).webp"
+  - "../../images/product/work_suit/(14).webp"
+  - "../../images/product/work_suit/(15).webp"
+  - "../../images/product/work_suit/(16).webp"
+  - "../../images/product/work_suit/(17).webp"
+  - "../../images/product/work_suit/(18).webp"
+  - "../../images/product/work_suit/(19).webp"
+  - "../../images/product/work_suit/(20).webp"
+  - "../../images/product/work_suit/(21).webp"
+  - "../../images/product/work_suit/(22).webp"
+  - "../../images/product/work_suit/(23).webp"
+  - "../../images/product/work_suit/(24).webp"
+  - "../../images/product/work_suit/(25).webp"
+  - "../../images/product/work_suit/(26).webp"
+  - "../../images/product/work_suit/(27).webp"
+  - "../../images/product/work_suit/(28).webp"
+  - "../../images/product/work_suit/(29).webp"
+  - "../../images/product/work_suit/(30).webp"
+  - "../../images/product/work_suit/(31).webp"
+  - "../../images/product/work_suit/(32).webp"
+  - "../../images/product/work_suit/(33).webp"
+  - "../../images/product/work_suit/(34).webp"
+  - "../../images/product/work_suit/(35).webp"
+  - "../../images/product/work_suit/(36).webp"
+  - "../../images/product/work_suit/(37).webp"
+  - "../../images/product/work_suit/(38).webp"
+  - "../../images/product/work_suit/(39).webp"
+  - "../../images/product/work_suit/(40).webp"
+  - "../../images/product/work_suit/(41).webp"
+  - "../../images/product/work_suit/(42).webp"
+  - "../../images/product/work_suit/(43).webp"
+  - "../../images/product/work_suit/(44).webp"
+  - "../../images/product/work_suit/(45).webp"
+  - "../../images/product/work_suit/(46).webp"
+  - "../../images/product/work_suit/(47).webp"
+  - "../../images/product/work_suit/(48).webp"
+  - "../../images/product/work_suit/(49).webp"
+  - "../../images/product/work_suit/(50).webp"
 ---
